@@ -1,0 +1,613 @@
+{
+  "mod_elements": [
+    {
+      "name": "SkullProcedure",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skull_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/simplifyfabric/procedures/SkullProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Skull",
+      "type": "command",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skull",
+      "metadata": {
+        "files": [
+          "src/main/java/net/simplifyfabric/command/SkullCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "BrightenProcedure",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brighten_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/simplifyfabric/procedures/BrightenProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Brighten",
+      "type": "command",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brighten",
+      "metadata": {
+        "files": [
+          "src/main/java/net/simplifyfabric/command/BrightenCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "DimProcedure",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dim_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/simplifyfabric/procedures/DimProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dim",
+      "type": "command",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dim",
+      "metadata": {
+        "files": [
+          "src/main/java/net/simplifyfabric/command/DimCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "RenameProcedure",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rename_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/simplifyfabric/procedures/RenameProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rename",
+      "type": "command",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rename",
+      "metadata": {
+        "files": [
+          "src/main/java/net/simplifyfabric/command/RenameCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "SpeedProcedure",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speed_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/simplifyfabric/procedures/SpeedProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Speed",
+      "type": "command",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/simplifyfabric/command/SpeedCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "MaxHealth",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "max_health",
+      "metadata": {
+        "files": [
+          "src/main/java/net/simplifyfabric/procedures/MaxHealthProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MaxHealthCommand",
+      "type": "command",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "max_health_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/simplifyfabric/command/MaxHealthCommandCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Damage",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "damage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/simplifyfabric/procedures/DamageProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DamageCommand",
+      "type": "command",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "damage_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/simplifyfabric/command/DamageCommandCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "KnockBackProcedure",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knock_back_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/simplifyfabric/procedures/KnockBackProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KnockBack",
+      "type": "command",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knock_back",
+      "metadata": {
+        "files": [
+          "src/main/java/net/simplifyfabric/command/KnockBackCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "AttackSpeedProcedure",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "attack_speed_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/simplifyfabric/procedures/AttackSpeedProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AttackSpeed",
+      "type": "command",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "attack_speed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/simplifyfabric/command/AttackSpeedCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "KnockBackResistProcedure",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knock_back_resist_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/simplifyfabric/procedures/KnockBackResistProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KnockBackResist",
+      "type": "command",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knock_back_resist",
+      "metadata": {
+        "files": [
+          "src/main/java/net/simplifyfabric/command/KnockBackResistCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "ArmorProcedure",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armor_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/simplifyfabric/procedures/ArmorProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Armor",
+      "type": "command",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/simplifyfabric/command/ArmorCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "SimplifyHelp",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "simplify_help",
+      "metadata": {
+        "files": [
+          "src/main/java/net/simplifyfabric/procedures/SimplifyHelpProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Simplify",
+      "type": "command",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "simplify",
+      "metadata": {
+        "files": [
+          "src/main/java/net/simplifyfabric/command/SimplifyCommand.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "simplify_fabric",
+    "modName": "Simplify [Fabric]",
+    "version": "1.0.0",
+    "description": "Simplifies those long annoying commands!",
+    "author": "FractalCoder, MCreator",
+    "websiteURL": "https://github.com/FractalingCoder",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.20.1",
+    "credits": "Long Annoying Commands",
+    "modElementsPackage": "net.simplifyfabric",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}
