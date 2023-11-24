@@ -1,0 +1,2 @@
+# SimplifyFabric
+Simplify long commands!
